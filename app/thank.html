@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+@include('_parts/head.html')
+
+<body>
+	<div class="wrapper thank">
+		@include('_parts/header.html')
+
+		<main class="main ">
+			<div class="bg-main">
+				@include('_sections/1_main-thank.html')
+			</div>
+			@include('_sections/10_section-10_2.html')
+			<div class="bg bg_gray">
+				@include('_sections/14_section-14.html')
+				<div class="bg__pic">
+					<img src="img/arrow-down.svg" alt="">
+				</div>
+			</div>
+		</main>
+
+		@include('_parts/footer.html')
+	</div>
+	@include('_parts/modal.html')
+	@include('_parts/_politic.html')
+
+	@include('_parts/scripts.html')
+</body>
+
+</html>

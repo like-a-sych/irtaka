@@ -1,0 +1,15 @@
+<form class="needs-validation form" novalidate="" method="POST" action="thank.php" enctype="multipart/form-data">
+	<div class="form__container">
+		<div class="form-block form__in">
+			<input type="hidden" name="from" value="Корректировка номера">
+			<div class="form-block__input">
+				<input type="tel" class="form-control" name="phone" placeholder="Введите ваш телефон"
+					value="<?php echo $_POST['phone'] ?>" onfocus="this.value=''" required="">
+			</div>
+			<button data-bs-toggle="modal" data-bs-target="#callback" class="_main-btn">
+				Отправить корректный <br>
+				номер телефона
+			</button>
+		</div>
+	</div>
+</form>
